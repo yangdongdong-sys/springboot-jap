@@ -164,4 +164,10 @@ public class UserController  {
         }
         // Assert.assertEquals("aa", operations.get("com.neo.f").getUserName());
     }
+
+
+    @RequestMapping("/index")
+    public String index(){
+        return "new";
+    }
 }
